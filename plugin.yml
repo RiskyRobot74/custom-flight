@@ -1,0 +1,13 @@
+name: CustomFlight
+version: '1.0'
+main: me.RiskyRobot74.CustomFlight
+api-version: 1.21
+commands:
+  fly:
+    description: Toggles flight mode for the player and sets flight speed.
+    usage: /fly <player> <speed>
+    permission: flyplugin.fly
+permissions:
+  flyplugin.fly:
+    description: Allows use of the /fly command.
+    default: true
